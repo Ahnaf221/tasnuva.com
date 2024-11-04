@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #e91e63;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e91e63;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #d81b60;
+        }
+        .love-lines {
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>I Love You jaanpakhi</h1>
+    <div class="image-container">
+        <img src="babu 1.JPG" alt="Love Image 1">
+        <img src="babu.JPG" alt="Love Image 2">
+    </div>
+    <button onclick="showPopup('I miss you so much!')">Click Me</button>
+    <button onclick="showPopup('Good luck with your life!')">Wishing You Well</button>
+    
+    <div class="love-lines">
+        <p>"You are my sun, my moon, and all my stars."</p>
+        <p>"In a sea of people, my eyes will always search for you."</p>
+    </div>
+
+    <script>
+        function showPopup(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
